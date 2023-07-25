@@ -1,0 +1,34 @@
+
+
+.main {
+    padding: 15px 30px;
+    display: grid;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.main__title {
+margin: 0;
+}
+.main__search {
+    justify-self: stretch;
+}
+.main__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.main__locale {
+    margin: 0;
+}
+
+.main__link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.main__link:hover {
+    text-decoration: underline;
+}
